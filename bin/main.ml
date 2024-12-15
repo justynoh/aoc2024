@@ -26,6 +26,8 @@ let term =
       | Some "4b" -> Aoc2024.Task4.b input
       | Some "5a" -> Aoc2024.Task5.a input
       | Some "5b" -> Aoc2024.Task5.b input
+      | Some "6a" -> Aoc2024.Task6.a input
+      | Some "6b" -> Aoc2024.Task6.b input
       | Some _ | None -> "No task specified."))
   |> print_endline
 
